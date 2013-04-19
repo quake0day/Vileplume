@@ -1,35 +1,21 @@
-*.py[cod]
+# bulit application files
+*.apk
+*.ap_
 
-# C extensions
-*.so
 
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
-lib
-lib64
+# files for the dex VM
+*.dex
 
-# Installer logs
-pip-log.txt
+# java class files
+*.class
 
-# Unit test / coverage reports
-.coverage
-.tox
-nosetests.xml
 
-# Translations
-*.mo
+local.properties
 
-# Mr Developer
-.mr.developer.cfg
+bin/
+gen/
+  
+
+# Eclipse project files
+.classpath
 .project
-.pydevproject
